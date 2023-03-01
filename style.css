@@ -1,7 +1,14 @@
+
 @font-face {
     font-family: 'firago';
     src: url('/assets/Fonts/FiraGO_WEB_1001/Roman/FiraGO-Regular.woff') format('woff');
   }
+
+  @font-face {
+    font-family: 'gilroy';
+    src: url("/assets/Fonts/gilroy.woff" ) format("woff"),
+  }
+
 
 
 * {
@@ -40,7 +47,7 @@ body {
 }
 
 .logo {
-    font-family: 'Gilroy GEO';
+    font-family: 'gilroy';
     font-style: normal;
     font-weight: 900;
     font-size: 100px;
