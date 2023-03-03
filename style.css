@@ -1,3 +1,16 @@
+
+@font-face {
+    font-family: 'firago';
+    src: url('/assets/Fonts/FiraGO_WEB_1001/Roman/FiraGO-Regular.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'gilroy';
+    src: url("/assets/Fonts/gilroy.woff" ) format("woff"),
+  }
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +18,7 @@
 }
 
 body {
+    font-family: 'firago';
 }
 
 .page {
@@ -22,7 +36,7 @@ body {
 
 .main h1 {
 
-    font-family: 'FiraGO';
+    font-family: 'firago';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -33,13 +47,18 @@ body {
 }
 
 .logo {
-    font-family: 'Gilroy GEO';
+    font-family: 'gilroy';
     font-style: normal;
     font-weight: 900;
     font-size: 100px;
     line-height: 127px;
     text-decoration: none;
     height: 194px;
+    color: #FD6F34;
+}
+
+.logo:hover {
+    text-decoration: none;
     color: #FD6F34;
 }
 
@@ -77,7 +96,6 @@ body {
 
 hr {
     border: 1px solid #fff;
-    margin-bottom: 10px;
 
 }
 
@@ -91,11 +109,18 @@ hr {
     list-style: none;
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .icon p {
-    margin-left: 25px;
+margin-left: 25px;
+font-family: 'FiraGO';
+font-style: italic;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+margin-bottom: 0;
+
 }
 
 
@@ -113,7 +138,7 @@ hr {
     background-image: url(/assets/images/background.png);
     margin: 50px auto auto auto;
     width: 1122px;
-    height: 200vh;
+    height: auto;
     right: 120px;
     
 }
@@ -145,10 +170,11 @@ hr {
 }
 
 .profile h5 {
+    font-family: 'firago';
+    font-weight: 700;
     font-size: 16px;
     width: 206px;
 }
-
 
 
 .profile-img {
@@ -220,9 +246,8 @@ hr {
 
     box-shadow: 0px 1px 21px #FAD2E1;
     border: 1px solid transparent;
-    padding: 5px;
+    padding: 0px 100px 0px 10px;
     border-radius: 20px;
-
     position: fixed;
     bottom: 0px;
     margin: 40px 80px;
@@ -241,8 +266,101 @@ hr {
     border-radius: 8px;
 
     position: fixed;
-    position: fixed;
-    bottom: 50px;
-    right: 220px;
+    bottom: 48px;
+    right: 200px;
 
 }
+
+.chat-detail-final {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+
+}
+
+
+.chat-detail-final {
+    background-color: #E2ECE9;
+    width: auto;
+    height: auto;
+    padding: 20px 10px;
+    margin: 0px 20px;
+    border-radius: 20px;
+    max-width: 40%;
+}
+
+.chat-detail-final-text {
+    margin: 0px 20px;
+}
+
+
+.with-image {
+    padding: 20px;
+}
+
+.with-image img {
+    display: block;
+margin: 0 auto;
+}
+
+.with-image h3 {
+    font-weight: bold;
+
+}
+
+.price {
+    display: flex;
+    height: 40px;
+}
+
+.price p {
+    padding: 10px 0px;
+}
+
+
+.price a {
+    margin: 0px 40px;
+    padding: 10px 20px;
+    background-color: #FAD2E1;
+    color: #000000;
+    border-radius: 10px;
+}
+
+.price a:hover {
+text-decoration: none;
+color: #000000;
+}
+
+.load-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.load-more a{
+    color: black;
+    margin: 20px;
+    margin-bottom: 150px;
+}
+
+.load-more a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.load-more1 {
+    background-color: #BEE1E6;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.reset {
+    background-color: #EDEDED;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
